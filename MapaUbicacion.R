@@ -26,7 +26,7 @@ mapa_ubicacion <- function(departamento_nombre, provincia_nombre, distrito_nombr
   
   # Filtracion los datos
   departamento <- departamentos %>% filter(nombdep == departamento_nombre)
-  provincia <- provincias %>% filter(nombdep == departamento_nombre)
+  provincia <- provincias %>% filter(nombdep == provincia_nombre)
   distrito <- distritos %>% filter(nombdist == distrito_nombre)
   
   # Gráfico
